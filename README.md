@@ -1,73 +1,86 @@
 # Java Programming
 
-This repository contains my Java programs and exercises while practicing core Java concepts and improving problem-solving skills.
+This repository contains my Java programs and command-line utilities created while practicing core programming concepts and improving problem-solving skills.
 
-I already have a strong programming foundation and use this repository to **maintain consistency by regularly uploading Java programs while focusing on other technologies such as Web Development.**
+I have a strong programming foundation in C, C++, and Python, and this repository helps me maintain consistency by regularly building small utilities and logical programs in Java.
 
 ---
 
 ## Topics Covered
 
-* Java Basics
-* Variables and Data Types
-* Control Statements
-* Loops
-* Arrays
-* Strings
-* Methods / Functions
-* Problem Solving
+The programs in this repository focus on strengthening core programming concepts such as:
+
+- Java Basics  
+- Variables and Data Types  
+- Control Flow (if/else, switch)  
+- Loops  
+- Arrays  
+- Strings  
+- Methods / Functions  
+- Problem Solving  
+
+More advanced concepts will be added gradually as the repository grows.
+
+---
+
+## Utilities
+
+This repository also includes small command-line utilities:
+
+- Temperature Converter  
+- Currency Converter  
+
+More utilities and logical programs will be added regularly.
 
 ---
 
 ## Repository Structure
 
-The programs in this repository will be organized into folders based on topics.
-
-Example structure:
+Current project structure:
 
 ```
 java
 │
-├── basics
-├── control-statements
-├── loops
-├── arrays
-├── strings
-├── methods
-└── oop
+├── utilities
+│   ├── TemperatureConverter.java
+│   └── CurrencyConverter.java
+│
+├── README.md
+└── LICENSE
 ```
 
-Each folder contains Java programs related to the specific topic.
-
+More folders and programs will be added as the repository grows.
 ---
 
 ## Purpose
 
 The main goals of this repository are:
 
-* Strengthen my understanding of **Java programming**
-* Practice **logical and problem-solving skills**
-* Maintain **daily coding consistency**
-* Build a **strong developer portfolio on GitHub**
+- Strengthen understanding of Java programming  
+- Practice logical and problem-solving skills  
+- Maintain daily coding consistency  
+- Build a strong developer portfolio on GitHub  
 
 ---
 
 ## Current Focus
 
-While maintaining this Java repository, my main learning focus is currently on:
+While maintaining this repository, my main learning focus is currently:
 
-* **Web Development (HTML, CSS, JavaScript)**
+- Web Development (HTML, CSS, JavaScript)
 
-Future plans include learning:
+Future plans include:
 
-* **Python for Data Science**
+- Data Structures & Algorithms  
+- Advanced Java  
+- Python for Data Science  
 
 ---
 
 ## Author
 
-**Uzair Rasool (Zerry)**
-BS Computer Science Student
-COMSATS University Islamabad
+**Uzair Rasool (Zerry)**  
+BS Computer Science Student  
+COMSATS University Islamabad  
 
 GitHub: https://github.com/Uzayr-Rasool
