@@ -1,0 +1,22 @@
+public class SnakeEyesSimulation {
+    public static void main(String[] args) {
+
+        int dice1 = 0;
+        int dice2 = 0;
+        int count = 0;
+
+        System.out.println("Snake Eyes Simulation \n");
+
+        while (dice1 != 1 || dice2 != 1) {
+            dice1 = (int)(Math.random() * 6) + 1;
+            dice2 = (int)(Math.random() * 6) + 1;
+            count++;
+
+            System.out.println("Roll " + count + " -> Dice1: " + dice1 + " | Dice2: " + dice2);
+        }
+
+        System.out.println("\nSnake eyes achieved!");
+        System.out.println("It took " + count + " rolls to get double ones.");
+        System.out.println("\nSimulation complete.");
+    }
+}
