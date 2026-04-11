@@ -21,26 +21,7 @@ I have a strong foundation in C, C++, and Python, and I use this repository to m
 
 ## Repository Structure
 
-java
-│
-├── utilities
-│   ├── TemperatureConverter.java
-│   └── CurrencyConverter.java
-│
-├── games
-│   ├── RockPaperScissors.java
-│   ├── HangmanGame.java
-│   └── TicTacToe.java
-│
-├── simulations
-│   └── SnakeEyesSimulation.java
-│
-├── projects
-│   └── CoffeeMachine.java
-
----
-
-## Utilities
+### Utilities
 
 Command-line tools for real-world use:
 
@@ -49,7 +30,7 @@ Command-line tools for real-world use:
 
 ---
 
-## Games
+### Games
 
 Logic-based interactive console games:
 
@@ -59,7 +40,7 @@ Logic-based interactive console games:
 
 ---
 
-## Simulations
+### Simulations
 
 Programs based on random behavior and probability:
 
@@ -67,7 +48,7 @@ Programs based on random behavior and probability:
 
 ---
 
-## Projects
+### Projects
 
 More structured and real-world inspired programs:
 
