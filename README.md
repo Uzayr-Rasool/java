@@ -1,88 +1,82 @@
 # Java Programming
 
-This repository contains my Java programs and projects while practicing core programming concepts and improving problem-solving skills.
-
-I have a strong foundation in C, C++, and Python, and I use this repository to maintain consistency by building practical Java programs.
+This repository contains my Java programs and projects focused on strengthening core programming concepts, problem-solving skills, and building structured applications.
 
 ---
 
-## Topics Covered
+## 📌 Topics Covered
 
-- Java Basics
-- Variables and Data Types
-- Control Flow (if/else, switch)
-- Loops
-- Arrays
-- Strings
-- Methods / Functions
-- Problem Solving
+- Java Basics  
+- Variables and Data Types  
+- Control Statements (if/else, switch)  
+- Loops  
+- Methods / Functions  
+- Problem Solving  
 
 ---
 
-## Repository Structure
+## 🚀 Projects
 
-### Utilities
+These projects focus on applying logic and building real-world inspired systems:
 
-Command-line tools for real-world use:
+- ATM System  
+  - PIN authentication with limited attempts  
+  - Deposit, withdrawal, and balance operations  
+  - Menu-driven system with validation  
 
-- Temperature Converter
-- Currency Converter
-
----
-
-### Games
-
-Logic-based interactive console games:
-
-- Rock Paper Scissors
-- Hangman (Word Guess Game)
-- Tic Tac Toe
+- Coffee Machine Simulation  
+  - Resource management (water, milk, beans, cups)  
+  - Multiple coffee options  
+  - Input validation and system state handling  
 
 ---
 
-### Simulations
+## 🎮 Games
 
-Programs based on random behavior and probability:
+Logic-based console games to improve thinking and control flow:
 
-- Snake Eyes (Dice Simulation)
-
----
-
-### Projects
-
-More structured and real-world inspired programs:
-
-- Coffee Machine (menu-driven system with resource management)
+- Tic Tac Toe (2-player game with win logic)  
+- Hangman (word guessing using string logic)  
 
 ---
 
-## Purpose
+## 🛠 Utilities
+
+Simple tools for practicing calculations and conversions:
+
+- Temperature Converter  
+- Currency Converter  
+
+---
+
+## 🎲 Simulations
+
+Programs based on randomness and probability:
+
+- Snake Eyes (Dice Simulation)  
+
+---
+
+## 🎯 Purpose
 
 The main goals of this repository are:
 
-- Strengthen Java programming concepts  
-- Practice problem-solving and logic building  
-- Maintain coding consistency  
-- Build a strong developer portfolio on GitHub  
+- Strengthen Java programming fundamentals  
+- Improve logical thinking and problem-solving  
+- Build structured and real-world inspired programs  
+- Maintain consistency in coding practice  
 
 ---
 
-## Current Focus
+## 📚 Current Focus
 
-Currently focusing on:
+- Problem Solving in Java  
+- Data Structures & Algorithms (DSA)  
+- Writing clean and efficient code  
 
-- Strengthening Java programming through practical projects  
-- Improving problem-solving and logic building  
-
-Future plans include:
-
-- Data Structures & Algorithms  
-- Advanced Java  
-- Exploring Web Development  
-- Python for Data Science  
 ---
 
-## Author
+## 👨‍💻 Author
 
 Uzair Rasool (Zerry)  
 BS Computer Science Student  
