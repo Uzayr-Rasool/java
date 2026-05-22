@@ -74,6 +74,18 @@ public class ConnectFour {
         return false;
     }
 
+    public static boolean isBoardFull(String[][] grid) {
+
+        for (int c = 0; c < 6; c++) {
+
+            if (grid[0][c].equals(".")) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public static boolean checkWin(String[][] grid, String symbol) {
 
         for (int r = 0; r < 6; r++) {
@@ -233,7 +245,9 @@ public class ConnectFour {
 
                     if (col == -1) {
                         while (true) {
+
                             int temp = rand.nextInt(6);
+
                             if (grid[0][temp].equals(".")) {
                                 col = temp;
                                 break;
@@ -266,10 +280,14 @@ public class ConnectFour {
                                 }
 
                                 break;
-                            } else {
+                            }
+
+                            else {
                                 System.out.print("Enter 1-6: ");
                             }
-                        } else {
+                        }
+
+                        else {
                             System.out.print("Invalid input: ");
                             input.nextLine();
                         }
@@ -285,12 +303,23 @@ public class ConnectFour {
                     gameOver = true;
                 }
 
+                if (!gameOver && isBoardFull(grid)) {
+
+                    printBoard(grid);
+
+                    System.out.println("\nMATCH DRAW!");
+
+                    gameOver = true;
+                }
+
                 if (!gameOver) {
 
                     if (currentPlayer.equals(player1)) {
                         currentPlayer = player2;
                         currentSymbol = symbol2;
-                    } else {
+                    }
+
+                    else {
                         currentPlayer = player1;
                         currentSymbol = symbol1;
                     }
@@ -342,13 +371,17 @@ public class ConnectFour {
                     if (choice.equalsIgnoreCase(coin)) {
                         currentPlayer = player2;
                         currentSymbol = symbol2;
-                    } else {
+                    }
+
+                    else {
                         currentPlayer = player1;
                         currentSymbol = symbol1;
                     }
 
                     break;
-                } else {
+                }
+
+                else {
                     System.out.print("Invalid! Choose Head/Tail: ");
                 }
             }
@@ -380,10 +413,14 @@ public class ConnectFour {
                             }
 
                             break;
-                        } else {
+                        }
+
+                        else {
                             System.out.print("Enter 1-6: ");
                         }
-                    } else {
+                    }
+
+                    else {
                         System.out.print("Invalid input: ");
                         input.nextLine();
                     }
@@ -398,12 +435,23 @@ public class ConnectFour {
                     gameOver = true;
                 }
 
+                if (!gameOver && isBoardFull(grid)) {
+
+                    printBoard(grid);
+
+                    System.out.println("\nMATCH DRAW!");
+
+                    gameOver = true;
+                }
+
                 if (!gameOver) {
 
                     if (currentPlayer.equals(player1)) {
                         currentPlayer = player2;
                         currentSymbol = symbol2;
-                    } else {
+                    }
+
+                    else {
                         currentPlayer = player1;
                         currentSymbol = symbol1;
                     }
