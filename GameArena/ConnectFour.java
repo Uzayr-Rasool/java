@@ -196,7 +196,8 @@ public class ConnectFour {
 
                     for (int c = 0; c < 6; c++) {
 
-                        if (!grid[0][c].equals(".")) continue;
+                        if (!grid[0][c].equals("."))
+                            continue;
 
                         for (int r = 5; r >= 0; r--) {
 
@@ -214,14 +215,16 @@ public class ConnectFour {
                             }
                         }
 
-                        if (col != -1) break;
+                        if (col != -1)
+                            break;
                     }
 
                     if (col == -1) {
 
                         for (int c = 0; c < 6; c++) {
 
-                            if (!grid[0][c].equals(".")) continue;
+                            if (!grid[0][c].equals("."))
+                                continue;
 
                             for (int r = 5; r >= 0; r--) {
 
@@ -239,7 +242,8 @@ public class ConnectFour {
                                 }
                             }
 
-                            if (col != -1) break;
+                            if (col != -1)
+                                break;
                         }
                     }
 
@@ -257,8 +261,7 @@ public class ConnectFour {
 
                     dropPiece(grid, col, currentSymbol);
 
-                    System.out.println();
-                    printBoard(grid);
+                    System.out.println("\nComputer chose column: " + (col + 1));
                 }
 
                 else {
