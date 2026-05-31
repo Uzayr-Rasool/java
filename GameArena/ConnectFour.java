@@ -15,7 +15,7 @@ public class ConnectFour {
 
             System.out.println("\n1. With Friend");
             System.out.println("2. With Computer");
-            System.out.println("3. Exit");
+            System.out.println("3. Return to Game Arena menu");
             System.out.print("Choose option: ");
 
             String choice = input.nextLine();
@@ -28,8 +28,8 @@ public class ConnectFour {
                 withComputer(input, rand);
             }
 
-            else if (choice.equals("3") || choice.equalsIgnoreCase("Exit")) {
-                System.out.println("Thanks for playing!");
+            else if (choice.equals("3") || choice.equalsIgnoreCase("Return")) {
+                System.out.println("Returning to Game Arena menu...");
                 return;
             }
 
