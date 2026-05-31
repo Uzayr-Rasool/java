@@ -132,7 +132,8 @@ public class WordScramble {
 
             System.out.println("\n===== 60 SECOND SPEED RUN START =====");
 
-            while (System.currentTimeMillis() < gameEndTime) {
+            boolean gameover = false;
+            while (System.currentTimeMillis() < gameEndTime && !gameover) {
                 String targetWord = words[rand.nextInt(wordCount)];
                 String scrambled = scrambleWord(targetWord, rand);
                 long wordEndTime = System.currentTimeMillis() + 10000;
@@ -143,6 +144,7 @@ public class WordScramble {
 
                     if (remainingGameTime <= 0) {
                         System.out.println("\nOverall game time finished!");
+                        gameover = true;
                         break;
                     }
 
